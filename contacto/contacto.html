@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Punto Zero Drugstore</title>
+</head>
+<body>
+    <header class="header">
+        <a href="./Index.html"><img class="header__logo" src="../assets/alfiler (1).png" alt=""></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"> <a href="../Index.html">Inicio</a></li>
+                <li class="header__item"> <a href="../productos/productos.html">Productos</a></li>
+                <li class="header__item"> <a href="../nosotros/nosotros.html">Nosotros</a></li>
+                <li class="header__item"> <a href="../franquicias/franquicias.html">Franquicias</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main class="main-contact">
+        <section class="fondo">
+            <form action="" method="get" enctype="text/plain" class="form">
+                <div>
+                    <label class="nombre" for="userName">Nombre</label>
+                    <input type="text" name="userName" id="userName">
+                </div>
+                <div>
+                    <label class="mail" for="userMail">Email</label>
+                    <input type="email" name="userMail" id="userMail">
+                </div>
+                <div>
+                    <label class="info" for="userInfo">Opciones</label>
+                    <select name="option" id="userInfo">
+                      <option value="" disabled selected>Elegir opción</option>
+                      <option value="productos">Productos</option>
+                      <option value="framquicias">Franquicias</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="txt" for="userText">Ingrese su mensaje</label>
+                    <textarea name="userText" id="userText" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label class="terms" for="checkbox">Aceptar términos y condiciones</label>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="si">
+                </div>
+                <div>
+                    <label class="check" for="checkbox">Desea recibir el newsletter?</label>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="si">
+                </div>
+                <div>
+                    <input class="send" type="submit" value="ENVIAR">
+                    <input class="reset" type="reset" value="LIMPIAR FORMULARIO">
+                </div>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Punto Zero Drugstore</p>
+        <p>General Alvear, Mendoza, Argentina</p>
+        <img src="../assets/rrsslogo.png" alt="" class="footer__img">
+    </footer>
+</body>
+</html>
