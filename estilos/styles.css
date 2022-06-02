@@ -9,15 +9,13 @@ p {
   font-weight: 400;
 }
 
-.header {
-  background-color: black;
-  padding: 2%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+.navbar{
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.header nav ul li {
+}
+.navbar-nav a{
   list-style: none;
   display: inline-block;
   background-color: white;
@@ -26,11 +24,22 @@ p {
   margin: 0px 10px 0px 10px;
 }
 
-.header nav ul li a {
-  text-decoration: none;
-  color: #d46b14;
+.card-img, .card-img-bottom, .card-img-top {
+    width: auto;
 }
 
+.fondoproducts{
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+#titulo{
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+}
+/*
 .contenido {
   margin: 5px 10px 5px 10px;
   display: grid;
@@ -43,6 +52,7 @@ p {
   grid-column-gap: 10px;
 }
 
+ 
 .hero {
   background-image: url(../assets/Imagen5.jpg);
   grid-area: hero;
@@ -76,11 +86,14 @@ p {
   padding: 2rem;
 }
 
+*/
 .img__grid {
   padding: 1%;
 }
 .footer__home {
-  background-color: #d46b14;
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: black;
   width: 100%;
   text-transform: uppercase;
