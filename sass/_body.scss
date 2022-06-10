@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  p {
+    font-weight: 400;
+  }
+  
+.card-img, .card-img-bottom, .card-img-top {
+    width: auto;
+}
+
+.fondoproducts{
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+#titulo{
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+}
+/*
+.contenido {
+  margin: 5px 10px 5px 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 50% auto auto);
+  grid-template-areas:
+    "hero"
+    "prop"
+    "footer";
+  grid-column-gap: 10px;
+}
+
+ 
+.hero {
+  background-image: url(../assets/Imagen5.jpg);
+  grid-area: hero;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 1%;
+}
+
+.hero__btn {
+  border-radius: 1rem;
+  margin: 0px 10px 0px 10px;
+  padding: 0.5rem;
+  background-color: white;
+  color: #d46b14;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.prop__col {
+  grid-area: prop;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin: auto;
+  color: #d46b14;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+}
+
+*/
+.img__grid {
+  padding: 1%;
+}
+
+ /* layout productos */
+  
+ .content {
+    margin: 0px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    grid-template-areas:
+      "titulo titulo titulo"
+      "coca alfajores cofler"
+      "milka mogul marlboro";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+}
+  
+.titulo {
+    grid-area: titulo;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    color: #d46b14;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+.img-1 {
+    grid-area: alfajores;
+    margin-top: 3rem;
+}
+
+.img-2 {
+    grid-area: coca;
+    margin-top: 3rem;
+}
+
+.img-3 {
+    grid-area: cofler;
+    margin-top: 3rem;
+}
+
+.img-4 {
+    grid-area: milka;
+}
+
+.img-5 {
+    grid-area: marlboro;
+}
+
+.img-6 {
+    grid-area: mogul;
+}
+  
+.content img {
+    max-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
