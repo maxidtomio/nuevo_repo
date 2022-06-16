@@ -1,0 +1,12 @@
+@mixin parrafo ($size, $color) {
+    font-size: $size;
+    color: $color;
+}
+
+.parrafoUno{
+    @include parrafo(1.3rem, blue)
+}
+
+.parrafoDos{
+    @include parrafo(1.3rem, red)
+}

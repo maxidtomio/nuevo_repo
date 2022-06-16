@@ -1,0 +1,12 @@
+$cardTres: (
+    "titulo": 40px,
+    "parrafo": 1.5rem,
+);
+
+.maptitle{
+    font-size: map-get($map: $cardTres, $key: titulo);
+}
+
+.mapParrafo{
+    font-size: map-get($map: $cardTres, $key: parrafo);
+}

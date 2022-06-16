@@ -230,3 +230,29 @@ p {
     justify-content: center;
     align-content: center;
     align-items: center; } }
+
+.titulocard, .tituloUno {
+  background-color: orange;
+  color: black;
+  font-size: 40px;
+  text-align: center; }
+  .titulocard:hover, .tituloUno:hover {
+    filter: opacity(90%); }
+
+.tituloUno {
+  background-color: black;
+  color: orange; }
+
+.parrafoUno {
+  font-size: 1.3rem;
+  color: blue; }
+
+.parrafoDos {
+  font-size: 1.3rem;
+  color: red; }
+
+.maptitle {
+  font-size: 40px; }
+
+.mapParrafo {
+  font-size: 1.5rem; }
