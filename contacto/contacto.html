@@ -7,21 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos/main.css">
-    <title>Punto Zero Drugstore</title>
+    <meta name="description" content="Drugstore 24 horas, contactanos">
+    <meta name="keywords" content="Drugstore, kiosco, 24 horas, golosinas, alfajores">
+    <title>Contacto - Punto Zero Drugstore</title>
 </head>
 <body>
-    <header class="header">
-        <a href="./Index.html"><img class="header__logo" src="../assets/alfiler (1).png" alt=""></a>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"> <a href="../Index.html">Inicio</a></li>
-                <li class="header__item"> <a href="../productos/productos.html">Productos</a></li>
-                <li class="header__item"> <a href="../nosotros/nosotros.html">Nosotros</a></li>
-                <li class="header__item"> <a href="../franquicias/franquicias.html">Franquicias</a></li>
-            </ul>
-        </nav>
-    </header>  
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Index.html"><img src="../assets/alfiler.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav align-items-center">
+              <a class="nav-link" aria-current="page" href="../Index.html">Inicio</a>
+              <a class="nav-link active" href="../productos/productos.html">Productos</a>
+              <a class="nav-link" href="../nosotros/nosotros.html">Nosotros</a>
+              <a class="nav-link" href="../franquicias/franquicias.html">Franquicias</a>
+              <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <main class="main-contact">
         <section class="fondo">
             <form action="" method="get" enctype="text/plain" class="form">
@@ -61,10 +70,17 @@
         </section>
     </main>
     <hr>
-    <footer>
-        <p>Punto Zero Drugstore</p>
-        <p>General Alvear, Mendoza, Argentina</p>
-        <img src="../assets/rrsslogo.png" alt="" class="footer__img">
+    <footer class="footer__home">
+        <div class="footer__homep">
+            <p>Punto Zero Drugstore</p>
+            <p>General Alvear, Mendoza, Argentina</p>
+        </div>
+        <div class="footer__col">
+        <img src="../assets/facebook (1).png" alt="">
+        <img src="../assets/gorjeo (1).png" alt="">
+        <img src="../assets/instagram (2).png" alt="">
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
