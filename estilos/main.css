@@ -29,7 +29,7 @@ p {
   width: auto; }
 
 .imagen__nosotros {
-  height: 40rem;
+  height: 45rem;
   padding: 2rem 2rem 0 2rem; }
 
 .card__nosotros {
@@ -48,7 +48,6 @@ p {
 
 #titulo {
   padding: 0.6rem;
-  background-color: black;
   color: white; }
 
 .acordeon__nos {
@@ -75,7 +74,8 @@ p {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .titleContact {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: white; }
 
 .img__grid {
   padding: 1%; }
