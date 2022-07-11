@@ -29,8 +29,7 @@ p {
   width: auto; }
 
 .imagen__nosotros {
-  height: 45rem;
-  padding: 2rem 2rem 0 2rem; }
+  height: auto; }
 
 .card__nosotros {
   margin-left: 1rem; }
@@ -71,7 +70,8 @@ p {
   background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #F27121, #E94057, #8A2387);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white; }
 
 .titleContact {
   font-size: 3rem;
@@ -79,18 +79,6 @@ p {
 
 .img__grid {
   padding: 1%; }
-
-/* layout productos */
-.content {
-  margin: 0px 10px 0px 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "titulo titulo titulo" "coca alfajores cofler" "milka mogul marlboro";
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  background-color: #646464; }
 
 .titulo {
   grid-area: titulo;
@@ -125,78 +113,6 @@ p {
   flex-direction: column;
   align-items: center;
   text-align-last: center; }
-
-/* media queries */
-/* celular */
-@media screen and (max-width: 480px) {
-  /*aca iria el index*/
-  .header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; }
-  .header__list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; }
-  .contenido {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .hero__desc {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch; }
-  .prop__col {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; }
-  .content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; } }
-
-/* tablet */
-@media screen and (min-width: 481px) and (max-width: 1023px) {
-  .header {
-    background-color: black;
-    display: flex;
-    flex-direction: column; }
-  .prop__col {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; }
-  .footer__home {
-    background-color: #d46b14;
-    color: black;
-    text-transform: uppercase;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; }
-  .content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center; } }
 
 .titulocard, .tituloUno {
   background-color: orange;
